@@ -48,13 +48,18 @@
     margin-bottom: 20px;
 }
 
-button{
+.btn1{
     background-color: blue;
     padding: 10px;
     color: azure;
     border-radius: 8px;
     justify-content: center;
 }
+
+.btn1:hover{
+    background-color:rgb(0, 255, 229);
+}
+
 
 .caixa1{
     background-color: blue;
@@ -85,4 +90,15 @@ button{
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+}
+
+.btn1{
+    border: none;
+    list-style: none;
+}
+
+.btn1 a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+   
 }
